@@ -1,8 +1,0 @@
-setup.py
-tank_interfaces/__init__.py
-tank_interfaces.egg-info/PKG-INFO
-tank_interfaces.egg-info/SOURCES.txt
-tank_interfaces.egg-info/dependency_links.txt
-tank_interfaces.egg-info/top_level.txt
-tank_interfaces/srv/__init__.py
-tank_interfaces/srv/_interface.py

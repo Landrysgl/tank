@@ -1,9 +1,0 @@
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/uninstall.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/tank_bringup_uninstall.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/test.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/edit_cache.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/rebuild_cache.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/list_install_components.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/install.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/install/local.dir
-/home/eldry/dv_ws/build/tank_bringup/CMakeFiles/install/strip.dir
