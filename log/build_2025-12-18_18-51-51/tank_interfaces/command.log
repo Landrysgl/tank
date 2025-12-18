@@ -1,0 +1,1 @@
+Invoking command in '/home/eldry/dv_ws/build/tank_interfaces': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_interfaces -- -j4 -l4

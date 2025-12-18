@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/eldry/dv_ws/build/tank_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_interfaces -- -j4 -l4
+[0.035s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.266s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.458s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:59 (message):
+[0.458s]   rosidl_generate_interfaces() called without any interface files
+[0.458s] Call Stack (most recent call first):
+[0.458s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.458s] 
+[0.458s] [0m
+[0.458s] -- Configuring incomplete, errors occurred!
+[0.462s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.464s] Invoked command in '/home/eldry/dv_ws/build/tank_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_interfaces -- -j4 -l4

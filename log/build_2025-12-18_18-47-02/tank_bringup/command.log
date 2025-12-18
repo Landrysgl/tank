@@ -1,0 +1,1 @@
+Invoking command in '/home/eldry/dv_ws/build/tank_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_bringup -- -j4 -l4

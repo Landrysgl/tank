@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    revolution_3_position_controller:
+      type: forward_position_controller/ForwardPositionController
+
+    revolution_5_position_controller:
+      type: forward_position_controller/ForwardPositionController
+
+revolution_3_position_controller:
+  ros__parameters:
+    joints:
+      - revolution_3
+
+revolution_5_position_controller:
+  ros__parameters:
+    joints:
+      - revolution_5

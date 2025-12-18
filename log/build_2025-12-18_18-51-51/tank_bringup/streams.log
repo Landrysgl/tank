@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/eldry/dv_ws/build/tank_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_bringup -- -j4 -l4
+[0.048s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.368s] Error parsing '/home/eldry/dv_ws/src/tank_bringup/package.xml':
+[4.479s] Traceback (most recent call last):
+[4.479s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[4.479s]     main()
+[4.479s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[4.479s]     raise e
+[4.479s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[4.479s]     package = parse_package_string(
+[4.480s]               ^^^^^^^^^^^^^^^^^^^^^
+[4.480s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[4.480s]     pkg.validate(warnings=warnings)
+[4.480s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[4.480s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[4.480s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/eldry/dv_ws/src/tank_bringup/package.xml':
+[4.480s] Invalid email "sl" for person "Samy et Landry"
+[4.557s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[4.558s]   execute_process(/usr/bin/python3
+[4.558s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[4.558s]   /home/eldry/dv_ws/src/tank_bringup/package.xml
+[4.558s]   /home/eldry/dv_ws/build/tank_bringup/ament_cmake_core/package.cmake)
+[4.558s]   returned error code 1
+[4.558s] Call Stack (most recent call first):
+[4.558s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[4.558s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[4.558s]   CMakeLists.txt:14 (ament_package)
+[4.558s] 
+[4.558s] [0m
+[4.559s] -- Configuring incomplete, errors occurred!
+[4.560s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[4.563s] Invoked command in '/home/eldry/dv_ws/build/tank_bringup' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_bringup -- -j4 -l4

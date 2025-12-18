@@ -1,0 +1,17 @@
+/home/eldry/dv_ws/install/tank_description/share/tank_description//urdf/tank.urdf
+/home/eldry/dv_ws/install/tank_description/share/tank_description//rviz/urdf_config.rviz
+/home/eldry/dv_ws/install/tank_description/share/ament_index/resource_index/package_run_dependencies/tank_description
+/home/eldry/dv_ws/install/tank_description/share/ament_index/resource_index/parent_prefix_path/tank_description
+/home/eldry/dv_ws/install/tank_description/share/tank_description/environment/ament_prefix_path.sh
+/home/eldry/dv_ws/install/tank_description/share/tank_description/environment/ament_prefix_path.dsv
+/home/eldry/dv_ws/install/tank_description/share/tank_description/environment/path.sh
+/home/eldry/dv_ws/install/tank_description/share/tank_description/environment/path.dsv
+/home/eldry/dv_ws/install/tank_description/share/tank_description/local_setup.bash
+/home/eldry/dv_ws/install/tank_description/share/tank_description/local_setup.sh
+/home/eldry/dv_ws/install/tank_description/share/tank_description/local_setup.zsh
+/home/eldry/dv_ws/install/tank_description/share/tank_description/local_setup.dsv
+/home/eldry/dv_ws/install/tank_description/share/tank_description/package.dsv
+/home/eldry/dv_ws/install/tank_description/share/ament_index/resource_index/packages/tank_description
+/home/eldry/dv_ws/install/tank_description/share/tank_description/cmake/tank_descriptionConfig.cmake
+/home/eldry/dv_ws/install/tank_description/share/tank_description/cmake/tank_descriptionConfig-version.cmake
+/home/eldry/dv_ws/install/tank_description/share/tank_description/package.xml

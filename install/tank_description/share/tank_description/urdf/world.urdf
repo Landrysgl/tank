@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <world name="default">
+    <include>
+      <uri>file://slambot.sdf</uri>
+    </include>
+  </world>
+</sdf>

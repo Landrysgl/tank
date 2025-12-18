@@ -1,0 +1,28 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/eldry/dv_ws/build/tank_bringup
+-- Install configuration: ""
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//launch
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//launch/display.launch.xml
+-- Installing: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//launch/controller.launch
+-- Installing: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//launch/display2.launch
+-- Installing: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//launch/gazebo.launch
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//config
+-- Installing: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//config/controller.yaml
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup//config/parameter.yaml
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/ament_index/resource_index/package_run_dependencies/tank_bringup
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/ament_index/resource_index/parent_prefix_path/tank_bringup
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/environment/path.sh
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/environment/path.dsv
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/local_setup.bash
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/local_setup.sh
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/local_setup.zsh
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/local_setup.dsv
+-- Installing: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/package.dsv
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/ament_index/resource_index/packages/tank_bringup
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/cmake/tank_bringupConfig.cmake
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/cmake/tank_bringupConfig-version.cmake
+-- Up-to-date: /home/eldry/dv_ws/install/tank_bringup/share/tank_bringup/package.xml

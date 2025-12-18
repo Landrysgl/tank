@@ -1,0 +1,216 @@
+[0.013s] Invoking command in '/home/eldry/dv_ws/build/tank_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_interfaces -- -j4 -l4
+[0.036s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.260s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.350s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.136s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.306s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.460s] -- Found PythonExtra: /usr/bin/python3  
+[3.029s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.079s] -- Configuring done (3.0s)
+[3.118s] -- Generating done (0.0s)
+[3.130s] -- Build files have been written to: /home/eldry/dv_ws/build/tank_interfaces
+[3.169s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.177s] [  2%] Built target ament_cmake_python_copy_tank_interfaces
+[3.412s] [  2%] Built target tank_interfaces__rosidl_generator_type_description
+[3.422s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.433s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.449s] running egg_info
+[3.450s] creating tank_interfaces.egg-info
+[3.477s] writing tank_interfaces.egg-info/PKG-INFO
+[3.477s] writing dependency_links to tank_interfaces.egg-info/dependency_links.txt
+[3.477s] writing top-level names to tank_interfaces.egg-info/top_level.txt
+[3.477s] writing manifest file 'tank_interfaces.egg-info/SOURCES.txt'
+[3.562s] reading manifest file 'tank_interfaces.egg-info/SOURCES.txt'
+[3.563s] writing manifest file 'tank_interfaces.egg-info/SOURCES.txt'
+[3.608s] [  8%] Built target ament_cmake_python_build_tank_interfaces_egg
+[3.836s] [ 14%] [32mBuilding C object CMakeFiles/tank_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tank_interfaces/srv/detail/interface__functions.c.o[0m
+[3.837s] [ 14%] [32mBuilding C object CMakeFiles/tank_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tank_interfaces/srv/detail/interface__description.c.o[0m
+[3.838s] [ 14%] Built target tank_interfaces__cpp
+[3.838s] [ 17%] [32mBuilding C object CMakeFiles/tank_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tank_interfaces/srv/detail/interface__type_support.c.o[0m
+[3.926s] [ 20%] [32m[1mLinking C shared library libtank_interfaces__rosidl_generator_c.so[0m
+[3.965s] [ 20%] Built target tank_interfaces__rosidl_generator_c
+[3.976s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.976s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.976s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.977s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.269s] [ 35%] [32mBuilding CXX object CMakeFiles/tank_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tank_interfaces/srv/interface__type_support.cpp.o[0m
+[4.326s] [ 38%] [32m[1mLinking CXX shared library libtank_interfaces__rosidl_typesupport_c.so[0m
+[4.330s] [ 41%] [32mBuilding CXX object CMakeFiles/tank_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tank_interfaces/srv/detail/interface__type_support.cpp.o[0m
+[4.353s] [ 44%] [32mBuilding C object CMakeFiles/tank_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tank_interfaces/srv/detail/interface__type_support.c.o[0m
+[4.368s] [ 44%] Built target tank_interfaces__rosidl_typesupport_c
+[4.379s] [ 47%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.396s] [ 50%] [32mBuilding CXX object CMakeFiles/tank_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tank_interfaces/srv/detail/dds_fastrtps/interface__type_support.cpp.o[0m
+[4.405s] [ 52%] [32m[1mLinking C shared library libtank_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.441s] [ 52%] Built target tank_interfaces__rosidl_typesupport_introspection_c
+[4.453s] [ 55%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.682s] [ 58%] [32mBuilding CXX object CMakeFiles/tank_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tank_interfaces/srv/interface__type_support.cpp.o[0m
+[4.864s] [ 61%] [32m[1mLinking CXX shared library libtank_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.875s] [ 64%] [32mBuilding CXX object CMakeFiles/tank_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tank_interfaces/srv/detail/interface__type_support_c.cpp.o[0m
+[4.999s] [ 64%] Built target tank_interfaces__rosidl_typesupport_introspection_cpp
+[5.154s] [ 67%] [32m[1mLinking CXX shared library libtank_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.157s] [ 70%] [32m[1mLinking CXX shared library libtank_interfaces__rosidl_typesupport_cpp.so[0m
+[5.264s] [ 70%] Built target tank_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.277s] [ 70%] Built target tank_interfaces__rosidl_typesupport_cpp
+[5.459s] [ 73%] [32m[1mLinking CXX shared library libtank_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.511s] [ 73%] Built target tank_interfaces__rosidl_typesupport_fastrtps_c
+[5.533s] [ 73%] Built target tank_interfaces
+[5.556s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.012s] [ 76%] Built target tank_interfaces__py
+[6.043s] [ 79%] [32mBuilding C object CMakeFiles/tank_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tank_interfaces/srv/_interface_s.c.o[0m
+[6.221s] [ 82%] [32m[1mLinking C shared library libtank_interfaces__rosidl_generator_py.so[0m
+[6.265s] [ 82%] Built target tank_interfaces__rosidl_generator_py
+[6.286s] [ 88%] [32mBuilding C object CMakeFiles/tank_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.286s] [ 88%] [32mBuilding C object CMakeFiles/tank_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.287s] [ 91%] [32mBuilding C object CMakeFiles/tank_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[6.395s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/tank_interfaces/tank_interfaces_s__rosidl_typesupport_c.so[0m
+[6.402s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/tank_interfaces/tank_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.403s] [100%] [32m[1mLinking C shared module rosidl_generator_py/tank_interfaces/tank_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[6.429s] [100%] Built target tank_interfaces_s__rosidl_typesupport_c
+[6.434s] [100%] Built target tank_interfaces_s__rosidl_typesupport_fastrtps_c
+[6.434s] [100%] Built target tank_interfaces_s__rosidl_typesupport_introspection_c
+[6.445s] Invoked command in '/home/eldry/dv_ws/build/tank_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/eldry/dv_ws/build/tank_interfaces -- -j4 -l4
+[6.446s] Invoking command in '/home/eldry/dv_ws/build/tank_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eldry/dv_ws/build/tank_interfaces
+[6.455s] -- Install configuration: ""
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/ament_index/resource_index/rosidl_interfaces/tank_interfaces
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/srv/Interface.json
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__description.c
+[6.455s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__type_support.c
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__functions.c
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__functions.h
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__type_support.h
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__struct.h
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/interface.h
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.456s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/library_path.sh
+[6.457s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/library_path.dsv
+[6.457s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_generator_c.so
+[6.457s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_generator_c.so" to ""
+[6.457s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.457s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.457s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.457s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__rosidl_typesupport_fastrtps_c.h
+[6.457s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg
+[6.458s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.458s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_fastrtps_c.so
+[6.458s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[6.458s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.458s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.458s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.458s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__type_support.c
+[6.458s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__rosidl_typesupport_introspection_c.h
+[6.458s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg
+[6.458s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_introspection_c.so
+[6.459s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_c.so
+[6.459s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_c.so" to ""
+[6.459s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.459s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.459s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__type_support.hpp
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__builder.hpp
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__traits.hpp
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__struct.hpp
+[6.459s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/interface.hpp
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg
+[6.460s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.460s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__rosidl_typesupport_fastrtps_cpp.hpp
+[6.460s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/dds_fastrtps
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg
+[6.460s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.460s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[6.460s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces
+[6.460s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv
+[6.461s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__rosidl_typesupport_introspection_cpp.hpp
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/include/tank_interfaces/tank_interfaces/srv/detail/interface__type_support.cpp
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_introspection_cpp.so
+[6.461s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_cpp.so
+[6.461s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_typesupport_cpp.so" to ""
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/pythonpath.sh
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/pythonpath.dsv
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces-0.0.0-py3.12.egg-info
+[6.461s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_c.so
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/_tank_interfaces_s.ep.rosidl_typesupport_c.c
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv
+[6.462s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv/_interface.py
+[6.463s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv/_interface_s.c
+[6.463s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv/__init__.py
+[6.463s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.463s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/__init__.py
+[6.505s] Listing '/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces'...
+[6.505s] Compiling '/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/__init__.py'...
+[6.505s] Listing '/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv'...
+[6.505s] Compiling '/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv/__init__.py'...
+[6.505s] Compiling '/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/srv/_interface.py'...
+[6.511s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[6.511s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.512s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_introspection_c.so
+[6.512s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[6.512s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_c.so
+[6.512s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/python3.12/site-packages/tank_interfaces/tank_interfaces_s__rosidl_typesupport_c.so" to ""
+[6.512s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_generator_py.so
+[6.513s] -- Set non-toolchain portion of runtime path of "/home/eldry/dv_ws/install/tank_interfaces/lib/libtank_interfaces__rosidl_generator_py.so" to ""
+[6.513s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/srv/Interface.idl
+[6.513s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/srv/Interface.srv
+[6.513s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/ament_index/resource_index/package_run_dependencies/tank_interfaces
+[6.514s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/ament_index/resource_index/parent_prefix_path/tank_interfaces
+[6.514s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/ament_prefix_path.sh
+[6.514s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/ament_prefix_path.dsv
+[6.514s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/path.sh
+[6.514s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/environment/path.dsv
+[6.515s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/local_setup.bash
+[6.515s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/local_setup.sh
+[6.515s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/local_setup.zsh
+[6.515s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/local_setup.dsv
+[6.515s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/package.dsv
+[6.516s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/ament_index/resource_index/packages/tank_interfaces
+[6.516s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_generator_cExport.cmake
+[6.516s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.516s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.517s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.517s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.517s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.517s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_cExport.cmake
+[6.517s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.518s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_generator_cppExport.cmake
+[6.518s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.519s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.519s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.519s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.519s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_cppExport.cmake
+[6.519s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_generator_pyExport.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/export_tank_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.520s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.521s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.521s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.521s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfacesConfig.cmake
+[6.521s] -- Up-to-date: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/cmake/tank_interfacesConfig-version.cmake
+[6.521s] -- Installing: /home/eldry/dv_ws/install/tank_interfaces/share/tank_interfaces/package.xml
+[6.522s] Invoked command in '/home/eldry/dv_ws/build/tank_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/eldry/dv_ws/build/tank_interfaces

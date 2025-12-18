@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "tank_interfaces__py",
+		"source" : "/home/eldry/dv_ws/build/tank_interfaces/tank_interfaces__py"
+	}
+}
